@@ -1,4 +1,4 @@
-#提示输入剪刀石头布
+i提示输入剪刀石头布
 while True:
     import random
     me = input('请输入剪刀(y)、石头(o)或者布(b):')
