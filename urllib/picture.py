@@ -13,7 +13,7 @@ for ul in img_ul:
         url = img['src']
         r = requests.get(url, stream=True)
         image_name = url.split('/')[-1]
-        with open('/home/zzmath/Pictures/animals/%s'%image_name,'wb') as f:
+        with open('/home/duansq/Pictures/animals/%s'%image_name,'wb') as f:
             for chunk in r.iter_content(chunk_size=128):
                 f.write(chunk)
         print('Saved %s'%image_name)
