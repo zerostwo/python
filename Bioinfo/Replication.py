@@ -85,3 +85,12 @@ def MinimumSkew(Genome):
     values = min(skew)
     return [i for i in range(len(Genome)) if values == skew[i]]
 
+def ApproximatePatternMatching(Text, Pattern, d):
+    return [i for i in range(len(Text) - len(Pattern) + 1) if HammingDistance(Pattern, Text[i:i+len(Pattern)]) <= d]
+
+def HammingDistance(p, q):
+    distance = 0
+    for i in range(len(p)):
+        if p[i] != q[i]:
+            distance += 1
+    return distance
