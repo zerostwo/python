@@ -10,3 +10,4 @@ def count_DNA(string):
         elif i == "G":
             c["G"] += 1
     return c
+
