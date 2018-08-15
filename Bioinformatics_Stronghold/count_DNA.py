@@ -1,5 +1,5 @@
 def count_DNA(string):
-    c = {"A":0, "T":0, "C":0, "G":0}
+    c = {"A":0, "C":0, "G":0, "T":0}
     for i in string:
         if i == "A":
             c["A"] += 1
