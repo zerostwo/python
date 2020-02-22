@@ -1,4 +1,4 @@
-names = ['duansongqi','lijinwen']
+names = ['duansongqi','']
 inser_name = input('please input your name:')
 
 if inser_name in names:
