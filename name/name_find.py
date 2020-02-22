@@ -1,4 +1,4 @@
-names = ['duansongqi','taoxinyu','lijinwen']
+names = ['duansongqi','','']
 insert_name = input('请输入你的名字：')
 num = 0
 for i in names:
